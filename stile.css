@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+  color: white;
+}
+
+.layunder{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(layover.jpg);
+  background-position: center;
+ }
+
+ .capo{
+   height: 15%;
+ }
+
+
+
+ .rendering{
+   font-weight:800;
+   font-size: 20px;
+   background: rgba(0, 0, 0, 0);
+   padding: 10px;
+ }
+
+ .logo{
+   height: 50px;
+   width: 50px;
+   text-align: center;
+   background: transparent;
+   border: 1px solid white;
+   font-size: 30px;
+   font-weight: 800;
+   background: rgba(255,106, 2,0.5);
+ }
+
+ .fa-search{
+   cursor: pointer;
+ }
+
+ .cerca{
+   color: rgb(255,106, 2);
+   font-weight:400;
+   cursor: pointer;
+   padding: 5px;
+ }
+
+
+ .corpo{
+   height: 75%;
+ }
+
+ .titolo{
+   width: 100%;
+   font-weight:800;
+   font-size: 45px;
+   background: rgba(0, 0, 0, 0);
+   padding: 10px;
+ }
+
+ .h50{
+   height: 50%;
+ }
+
+ .learn{
+   height: 45px;
+   width: 160px;
+   background: rgba(253,106,2,1);
+   border: orange;
+   font-size: 15px;
+   font-weight: 800;
+ }
+
+ .learn:hover{
+   background: rgba(255, 106, 2, 0.25);
+ }
+
+ .arancio{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: flex-start;
+   height: 100%;
+   width: 500px;
+   background: rgba(255,106,2,0.45);
+ }
+
+ .nomecognome{
+   font-size: 45px;
+   font-weight: 800;
+   margin-top: 5px;
+  }
+
+  .professione{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+   }
+
+  .freccia{
+    margin-top: 5px;
+    font-weight:300;
+    cursor: pointer;
+    background: rgb(255,106,2);
+    padding-right: 10px;
+  }
+
+  .freccia:hover{
+    background: rgba(255, 106, 2, 0.25);
+  }
+
+ .arancio > div{
+   padding-left: 30px;
+ }
+
+/* piede */
+
+.piede{
+  height: 10%;
+  background: rgba(255,106,2,0.5);
+}
+
+.items-piede{
+ font-weight:800;
+ font-size: 15px;
+ background: rgba(0, 0, 0, 0);
+ border-left: 1px solid white;
+ border-right: 1px solid white;
+ cursor: pointer;
+ padding: 5px 10px;
+}
+
+.piede i{
+  font-weight:100;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.piede i:hover{
+  background: rgba(255,106,2,1);
+  cursor: pointer;
+}
+
+.items-piede:hover{
+   background: rgb(255,106,2); */
+   cursor: pointer;
+ }
+
+.flex-dx{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-ba{
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-sx{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-al{
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-sa{
+  display: flex;
+  justify-content: space-around;
+}
